@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Sticky PR Panel",
+  "version": "1.0.0",
+  "description": "Keeps the right-hand conversation panel visible on GitHub pull requests.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*"],
+      "css": ["sticky-panel.css"]
+    }
+  ]
+}

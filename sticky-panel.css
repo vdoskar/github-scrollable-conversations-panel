@@ -1,0 +1,9 @@
+[data-position="end"][data-is-hidden="false"][class*="Conversations-module__pane__"] {
+  position: sticky !important;
+  top: 70px;
+  align-self: flex-start;
+  max-height: calc(100vh - 112px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+}
