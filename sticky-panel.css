@@ -8,9 +8,16 @@
   overscroll-behavior: contain;
 }
 
-[data-component="PH_Navigation"] {
-  position: sticky !important;
-  top: 0;
-  z-index: 100;
+[data-component="TabNav"].sticky-pr-tabs--fixed {
+  position: fixed !important;
+  top: var(--sticky-pr-tabs-header-height);
+  left: var(--sticky-pr-tabs-left);
+  z-index: 1;
+  box-sizing: border-box;
+  width: max-content;
   background-color: var(--bgColor-default, var(--color-canvas-default));
+}
+
+[data-component="PageHeader"][class*="StickyPullRequestHeader-module__is-stuck__"] {
+  z-index: 2 !important;
 }

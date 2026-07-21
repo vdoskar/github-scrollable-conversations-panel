@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
   "name": "GitHub Sticky PR Panel",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Keeps the conversation panel and navigation tabs visible on GitHub pull requests.",
   "content_scripts": [
     {
       "matches": ["https://github.com/*/*/pull/*"],
-      "css": ["sticky-panel.css"]
+      "css": ["sticky-panel.css"],
+      "js": ["sticky-tabs.js"]
     }
   ]
 }
