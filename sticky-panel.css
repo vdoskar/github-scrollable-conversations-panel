@@ -7,3 +7,10 @@
   overflow-x: hidden;
   overscroll-behavior: contain;
 }
+
+[data-component="PH_Navigation"] {
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bgColor-default, var(--color-canvas-default));
+}

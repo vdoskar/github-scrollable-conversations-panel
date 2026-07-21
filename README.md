@@ -1,6 +1,6 @@
 # GitHub Sticky PR Panel
 
-Jednoduché Chrome rozšíření, které na stránce GitHub Pull Requestu udrží pravýpanel konverzace viditelný při posouvání stránky. Pokud je panel vyšší než okno, lze jeho obsah posouvat samostatně.
+Jednoduché Chrome rozšíření, které na stránce GitHub Pull Requestu udrží pravý panel konverzace i záložky Conversation, Commits, Checks a Files changed viditelné při posouvání stránky. Pokud je panel vyšší než okno, lze jeho obsah posouvat samostatně.
 
 ## Instalace
 
